@@ -67,14 +67,14 @@ header h1 {
 
 #Work div {
   display: inline-block;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 5px;
   background-color: #abedd8;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: left;
   color: #48466d;
   animation: fadeOut .8s;
