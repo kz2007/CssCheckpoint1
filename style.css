@@ -60,18 +60,66 @@ header h1 {
   margin-left: 280px;
 }
 
-#Work{
-    text-align: center;
+#Work {
+  text-align: center;
+  margin-bottom: 100px;
 }
 
-#Work div{
-    display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 5px;
-    background-color: #abedd8;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+#Work div {
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 5px;
+  background-color: #abedd8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  color: #48466d;
+  animation: fadeOut .8s;
+}
+
+#Resume{
+    margin-bottom: 100px;
+}
+
+#Contact{
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% { opacity: .2; }
+    100% { opacity: 1; }
+  }
+
+@keyframes fadeOut {
+    100% { opacity: 1; }
+    0% { opacity: .2; }
+  }
+
+#Robotics:hover{
+    background-image: url('content/Telephone.jpg');
+    background-size: cover;
+    color: #ffffff00;
+    animation: fadeIn .8s;
+}
+
+#Software:hover{
+    background-image: url('content/GameScreenShot.png');
+    background-size: cover;
+    color: #ffffff00;
+    animation: fadeIn .8s;
+}
+
+#Drums:hover{
+    background-image: url('content/DrumImage.jpg');
+    background-size: cover;
+    color: #ffffff00;
+    animation: fadeIn .8s;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: left;
 }
